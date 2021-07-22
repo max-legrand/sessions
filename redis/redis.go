@@ -3,9 +3,9 @@ package redis
 import (
 	"errors"
 
-	"github.com/boj/redistore"
-	"github.com/gin-contrib/sessions"
 	"github.com/gomodule/redigo/redis"
+	"github.com/max-legrand/redistore"
+	"github.com/max-legrand/sessions"
 )
 
 type Store interface {
